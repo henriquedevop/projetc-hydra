@@ -1,0 +1,19 @@
+@import url(../styles/header.css);
+@import url(../styles/hero.css);
+@import url(../styles/info.css);
+@import url(../styles/intro.css);
+@import url(../styles/whyus.css);
+
+:root {
+    --background-color: #302C42;
+    --text-color: #FFFFFF;
+    --font-main: "Montserrat";
+    --purple-gradient: linear-gradient(to right, #8176AF, #C0B7E8);
+}
+
+
+body {
+    background-color: var(--background-color);
+    font-family: var(--font-main);
+    color: var(--text-color);
+}

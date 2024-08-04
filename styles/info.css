@@ -1,0 +1,29 @@
+.info {
+    background-image: radial-gradient(circle, #3A3456, #211E2E);
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    margin: 0 5em;
+    border-radius: 70px;
+}
+
+.info__section {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.info__tittle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.info__right {
+    line-height: calc(1em + 0.7em);
+}
+
+.info__line {
+    background-color: var(--text-color);
+    width: 2px;
+    opacity: 10%;
+}

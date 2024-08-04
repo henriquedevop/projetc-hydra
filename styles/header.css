@@ -1,0 +1,42 @@
+.header {
+    margin: 3em 5em;
+}
+
+.nav__menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu-section {
+    display: flex;
+    align-items: center;
+}
+
+.nav__menu-section-logo{
+    gap: 1em;
+}
+
+.nav__menu-section-link {
+    gap: 2.5em;
+}
+
+.menu__item-link {
+    color: var(--text-color);
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.menu__item-link-btn {
+    white-space: nowrap;
+    border-radius: 50px;
+    padding: 1.2em 2em;
+    border: 2px solid var(--text-color);
+}
+
+.menu__item-link-btn-purple {
+    font-weight: 700;
+    color: var(--background-color);
+    border: 0px;
+    background: linear-gradient(to right, #8176AF, #C0B7E8);
+}
