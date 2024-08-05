@@ -3,6 +3,7 @@
 @import url(../styles/info.css);
 @import url(../styles/intro.css);
 @import url(../styles/whyus.css);
+@import url(../styles/tech.css);
 
 :root {
     --background-color: #302C42;
