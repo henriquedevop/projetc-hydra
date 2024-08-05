@@ -1,0 +1,38 @@
+.how {
+    margin-top: 7em;
+}
+
+.how__lowwer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.how__lowwer-flex {
+    align-items: start;
+    display: flex;
+    gap: 1em;
+}
+
+.how__lower-cln {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.how__lowwer__tittle {
+    color: var(--background-color);
+    font-size: 4rem;
+    font-weight: 700;
+    background-image: var(--purple-gradient);
+    padding: 1.3em 0;
+    border-radius: 50%;
+    box-shadow: 0px 0px 0px 0.3em rgba(0, 0, 0, 0.2);
+}
+
+.how__lowwer__subtittle {
+    max-width: 12ch;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
