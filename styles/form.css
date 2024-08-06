@@ -71,3 +71,15 @@
     justify-content: center;
     margin-top: 3em;
 }
+
+/* ONLY HOVER */
+
+.footer__group-link:hover {
+    text-decoration: underline;
+}
+
+.menu__item-link-btn-purple:hover{
+    background-image: none;
+    border: 2px solid white;
+    color: var(--text-color);
+}

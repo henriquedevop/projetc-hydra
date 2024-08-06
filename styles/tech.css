@@ -39,3 +39,7 @@
     justify-content: space-around;
     margin-top: 7em;
 }
+
+.tech__lower__text-btn:hover {
+    border: 2px solid #cdc6eb;
+}
