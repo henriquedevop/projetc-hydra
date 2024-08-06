@@ -6,6 +6,7 @@
 @import url(../styles/tech.css);
 @import url(../styles/how.css);
 @import url(../styles/form.css);
+@import url(../styles/footer.css);
 
 :root {
     --background-color: #302C42;
