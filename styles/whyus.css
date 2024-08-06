@@ -36,3 +36,13 @@
     font-size: 0.8rem;
     max-width: 30ch;
 }
+
+@media screen and (max-width: 1024px) {
+    .whyus__card {
+        flex-wrap: wrap;
+    }
+
+    .whyus__card-collum {
+        margin-bottom: 2em;
+    }
+}
